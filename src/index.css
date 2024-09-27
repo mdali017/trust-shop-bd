@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "logoFonts";
+  src: url("./assets/Fonts/MouldyCheeseRegular-WyMWG.ttf") format("woff2");
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  height: 0px;
+  background: transparent;
+}
